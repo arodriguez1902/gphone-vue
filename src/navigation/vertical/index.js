@@ -5,6 +5,16 @@ export default [
     icon: 'HomeIcon',
   },
   {
+    title: 'Mantenimiento',
+    icon: 'ToolIcon',
+    children: [
+      {
+        title: 'Usuario Negocio',
+        route: 'businessUsers',
+      },
+    ],
+  },
+  {
     title: 'Seguridad',
     icon: 'LockIcon',
     children: [
