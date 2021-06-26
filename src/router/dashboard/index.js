@@ -1,4 +1,5 @@
 import securityRoutes from './security'
+import maintenanceRoutes from './maintenance'
 
 const dashboardRoutes = [
   {
@@ -17,6 +18,7 @@ const dashboardRoutes = [
     },
   },
   ...securityRoutes,
+  ...maintenanceRoutes,
 ]
 
 export default dashboardRoutes
